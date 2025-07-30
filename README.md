@@ -287,7 +287,7 @@ if(require(Rgraphviz, quietly = TRUE)) {
 | `variable is not supported in bnlearn` | Convert to factors: `as.factor(data$variable)` |
 | `Error in data.type(x)` | Ensure all variables are factors or numeric |
 
-## 📈 Performance Tips
+## Performance Tips
 
 ### For Large Datasets
 ```r
