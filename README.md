@@ -1,8 +1,8 @@
-# 🧠 Bayesian Network Structure Learning Labs
+#  Bayesian Network Structure Learning Labs
 
 A comprehensive collection of three hands-on labs for learning Bayesian Network structure learning, parameter estimation, and inference using R and the `bnlearn` package.
 
-## 📋 Table of Contents
+##  Table of Contents
 
 - [Overview](#overview)
 - [Prerequisites](#prerequisites)
@@ -15,7 +15,7 @@ A comprehensive collection of three hands-on labs for learning Bayesian Network 
 - [Contributing](#contributing)
 - [License](#license)
 
-## 🎯 Overview
+##  Overview
 
 This repository contains three comprehensive labs that cover the complete workflow of Bayesian Network analysis:
 
@@ -25,20 +25,18 @@ This repository contains three comprehensive labs that cover the complete workfl
 
 Each lab includes hands-on exercises with real data analysis, visualization, and interpretation of results.
 
-## 🔧 Prerequisites
-
-### System Requirements
+## System Requirements
 - **R** (version 4.0 or higher)
 - **RStudio** (recommended for better experience)
 - **Git** (for cloning the repository)
 - **Graphviz** (optional, for network visualization)
 
 ### Operating System Support
-- ✅ macOS (tested on macOS 12+)
-- ✅ Linux (Ubuntu 18.04+, CentOS 7+)
-- ✅ Windows 10/11 (with Rtools)
+- macOS (tested on macOS 12+)
+- Linux (Ubuntu 18.04+, CentOS 7+)
+- Windows 10/11 (with Rtools)
 
-## 📦 Installation
+## Installation
 
 ### 1. Clone the Repository
 
@@ -72,10 +70,10 @@ install.packages(c("Rgraphviz", "graph", "RBGL"),
 # Test if packages load correctly
 library(bnlearn)
 library(gRain)
-cat("✅ All packages installed successfully!\n")
+cat("All packages installed successfully!\n")
 ```
 
-## 🏗️ Lab Structure
+## Lab Structure
 
 ```
 structure-learning-labs/
@@ -90,7 +88,7 @@ structure-learning-labs/
     └── lab3_custom_bn_model_evaluation.R       # Lab 3: Custom BN & Model Evaluation
 ```
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Run All Labs at Once
 ```r
@@ -121,7 +119,7 @@ Rscript Lab2_Parameter_Learning_Inference/lab2_parameter_learning_inference.R
 Rscript Lab3_Custom_BN_Model_Evaluation/lab3_custom_bn_model_evaluation.R
 ```
 
-## 📚 Detailed Usage
+## Detailed Usage
 
 ### Lab 1: Structure Learning
 
@@ -222,7 +220,7 @@ mb_sizes <- sapply(nodes(manual_structure), function(node) {
 - Cross-validation scores
 - Network metrics summary
 
-## 📊 Expected Results
+## Expected Results
 
 ### Lab 1 Results
 - **Dataset**: 6 variables (A-F), 5,000 observations
@@ -242,7 +240,7 @@ mb_sizes <- sapply(nodes(manual_structure), function(node) {
 - **Cross-validation**: Log-likelihood scores
 - **Network metrics**: Markov blanket, neighborhood sizes
 
-## 🔍 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -310,7 +308,7 @@ library(networkD3)
 # Convert bnlearn object to igraph and then to networkD3
 ```
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions! Please follow these steps:
 
@@ -326,24 +324,23 @@ We welcome contributions! Please follow these steps:
 - Update documentation
 - Test on multiple R versions
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **bnlearn package**: Marco Scutari and Robert Ness
 - **gRain package**: Søren Højsgaard
 - **R community**: For continuous support and improvements
 
-## 📞 Support
+## Support
 
 If you encounter any issues:
 
 1. **Check** the troubleshooting section above
 2. **Search** existing issues on GitHub
 3. **Create** a new issue with detailed information
-4. **Contact** the maintainers
 
 ### Issue Template
 ```markdown
@@ -367,7 +364,3 @@ If you encounter any issues:
 ```
 
 ---
-
-**Happy Learning! 🎓**
-
-*This project is designed for educational purposes in Bayesian Network structure learning and inference.* 
