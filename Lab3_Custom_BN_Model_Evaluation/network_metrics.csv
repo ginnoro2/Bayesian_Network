@@ -1,0 +1,6 @@
+"Variable","Markov_Blanket_Size","Neighborhood_Size","Children_Count"
+"Education",3,2,2
+"Age",2,1,1
+"Income",3,2,1
+"JobSatisfaction",2,2,0
+"WorkHours",4,3,1
